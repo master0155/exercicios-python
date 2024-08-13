@@ -1,0 +1,3 @@
+Operador	Função
+in	Retorna True caso o valor seja encontrado na sequência
+not in	Retorna True caso o valor não seja encontrado na sequência

@@ -1,0 +1,10 @@
+Modulos:
+surgiu para dividir um programa grande em varias partes, coisa de programação moderna
+
+colocar a def em um arquivo.py diferente
+e no arquivo com o programa principal importar o nome do modulo que nesse caso seria 
+import arquivo (no programa principal)
+para usar as funcoes de dentro de arquivo como 'dobrar', voce deve usar arquivo.dobrar
+
+Bibliotecas no python é (pacotes no python) 
+A junção de varios modulos separados por assunto, ou seja um pacote

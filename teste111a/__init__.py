@@ -1,0 +1,1 @@
+from teste111a.curso import moeda,dado

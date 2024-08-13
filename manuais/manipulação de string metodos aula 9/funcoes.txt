@@ -1,0 +1,4 @@
+.startswith()  pergunta ao programa se a String começa com o que tá em parênteses.
+.endswith()  pergunta para o programa se a String termina com o que está em parênteses.
+.isnumeric() retorna como resposta se temos apenas dígitos numéricos na string.
+.isalpha() A string só possui letras alfabéticas? para verificar utilizamos.

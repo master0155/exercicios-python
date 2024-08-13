@@ -1,0 +1,27 @@
+Interactive Help:
+help(funcao) no terminal
+print(help(funcao))
+print(funcao.__doc__)
+
+Docstrings:
+"""
+
+	""" (3 aspas duplas para abrir uma docstring, para por como descricao na sua def)
+
+Parametros opcionais:
+def somar(a=0,b=0,c=0): (A pessoa pode usar 1, 2 ou 3 variaveis ou nenhuma)
+def somar(*num): (A pessoa pode usar quantos parametros ou variaveis quiser)
+
+Escopo de variaveis:
+Uma variavel declarada dentro do def, só vale nele. (Escopo local)
+Uma variavel declarada no programa principal, vale nele e no def. (Escopo global)
+Comando global dentro da def, nao usa 2 variaveis, uma global e local, mas usa apenas
+a variavel global do programa principal dentro da def (curso python em video #21 31:00)
+
+Retornando valores 
+return
+usado para a formatacao dos prints, dentro da def pode escrever so return e o nome da variavel, assim voce pode printar de formas diferentes
+r1 = def(1,2)
+r2 = def(2,3)
+r3 = def(3,4)
+print(f'Resultado:{r1}, {r2}, {r3}.'

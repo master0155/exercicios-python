@@ -1,0 +1,18 @@
+# Formatando valores em Python
+# Formatando valores com modificadores
+"""
+:s - Texto (strings)
+:d - Inteiros (int)
+:f - Números de ponto flutuante (float)
+:. (número)f - Quantidade de casas decimais (float)
+: (caractere) (> ou < ou ^) (quantidade) (tipo - s, d ou f)
+
+> - Esquerda
+< - Direita
+^ - Centro
+"""
+num = 10
+print(f'{num:>10}')  # Coloca espaços ou um número a esquerda
+print(f'{num:<10}')  # Coloca espaços ou um número a direita
+print(f'{num:^10}')  # Coloca espaços ou um número no centro
+print(f'{num:2>10}')  # Coloca o número 2 a esquerda 10 vezes - len(num)

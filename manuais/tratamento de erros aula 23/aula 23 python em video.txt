@@ -1,0 +1,20 @@
+primt(x) (erro de sintaxe (gramatica))-(erro)
+print(x) (erro de semântica (significado))-(excessao)
+
+
+try (tentar)
+except (excessão)
+
+
+try:
+	(comando que voce quer)
+except Exception as erro:
+	print(f'O problema encontrado foi {erro.algumacoisa}')
+except (ValueError, TypeErrpr):
+	print('')
+except:
+	(mostrar o que vc quiser se der erro)
+else:	(opicional)
+	(o que acontecer se der certo)	
+finnally:(opcinal)
+	(o que acontecer se der certou ou errado)

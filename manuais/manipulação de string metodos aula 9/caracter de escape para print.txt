@@ -1,0 +1,12 @@
+Caracteres de escape disponíveis em Python.
+
+\n - Nova linha. Move o cursor para o início da próxima linha.
+\t - Tabulação Horizontal. Move o cursor para a próxima parada de tabulação (tab).
+\r - Retorno de carro. Move cursor ao início da linha; não avança para a próxima linha.
+\b - Backspace. Retrocede o cursor um caractere.
+\a - Alerta. Emite o som de sino do sistema.
+\ - Barra invertida (Backslash).
+\" - Caractere de aspas duplas.
+\' - Caractere de aspas simples.
+
+usar um r antes das aspas no print mostra a \ e não executa nada.

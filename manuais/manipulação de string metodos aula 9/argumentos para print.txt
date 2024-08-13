@@ -1,0 +1,7 @@
+sep=’separador‘ – Especifica como os objetos serão separados, se houver mais do que um. O padrão é um espaço em branco.
+
+end=’caractere‘ – Especifica o caractere que é impresso no final da linha. O padrão é \n, uma quebra de linha.
+
+file – Especifica um objeto com um método write, com um arquivo. O padrão é o dispositivo sys.stdout (saída padrão – a tela).
+
+flush – Valor booleano que especifica se a saída é eliminada (True) ou gravada em buffer (False). O padrão é False.

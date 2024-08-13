@@ -1,0 +1,24 @@
+lanche.insert(0,'str'); adiciona uma posicao no zero e o valor nessa posicao 
+del lanche[3]; delete o elemento da lista na posicao [3]
+lanche.pop[3]; remove o ultimo elemento e posicao da lista ou o especificado
+lanche.remove('str'); remove o valor e nao a posicao da lista
+lanche.append() ; adiciona valor a variavel
+lanche.insert(0,banana); 0 a posição ; banana o valor ; arrasta o resto pra frente
+para remover um elemento que nao ha certeza que ele esta na lista se faz;
+if 'str' in lanche:
+	lanche.remove('str')
+
+valores = list(range(4,11))
+	valores = (4,5,6,7,8,9,10)
+
+para por valores fora de ordem em ordem usa a funcao .sort()
+por exemplo:
+valores = [2,4,1,7,8,9,5,6]
+valores.sort()
+
+e o inverso disso se faz
+valores.sort(reverse=True)
+
+saber a quantidade de valores da lista usa o len
+len(valores) (contando com zero)
+

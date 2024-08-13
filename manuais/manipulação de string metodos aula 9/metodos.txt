@@ -1,0 +1,13 @@
+frase.upper()  tudo maiusculo
+frase.lower()  tudo minusculo
+frase.split() corta, que segue algum parâmetro e tem como corte padrão espaços vazios
+frase.strip()  remover os espaços primeiros e ultimos, manter os do meio
+frase.slit()  onde tem espaço ele vai criar uma divisão, ele separa cria novos indices
+frase.rstrip()  r right direita, somente os ultimos espaços que ira tirar
+frase.lstrip()  l left esquerda, todo espaço da esquerda
+frase.len()  É usada para verificar quantos caracteres há na string.(incluindo espaços)
+frase.count()  Vai contar quantas ocorrencias tem o que esta nos parenteses.
+frase.capitalize()  tudo minusculo, primeira letra em maiusculo
+frase.replace('Python','Android')  Onde tem Python ele vai substituir por Android, replace = mudar/alterar
+frase.title()  tudo minusculo, primeira letra de cada palavra em maiusculo
+'-'.join(frase)  juntar todos os elementos, usando o separador 

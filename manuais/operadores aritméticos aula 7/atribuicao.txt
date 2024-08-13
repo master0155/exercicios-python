@@ -1,0 +1,7 @@
+Operador	Equivalente a
+=	x = 1
++=	x = x + 1
+-=	x = x - 1
+*=	x = x * 1
+/=	x = x / 1
+%=	x = x % 1
